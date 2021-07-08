@@ -1,9 +1,9 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<g id="time-3">
-		<rect id="hours-hand" x="11" y="4" width="2" height="9" rx="1" fill="#ffffff"/>
+		<rect id="hours-hand" x="11" y="4" width="2" height="9" rx="1" fill="#404040"/>
 		<g id="rotatable-hand">
-			<circle id="ellipse" cx="12" cy="12" r="11" stroke="#ffffff" stroke-width="2"/>
-			<rect id="seconds-hand" x="11" y="13" width="2" height="9" rx="1" transform="rotate(-90 11 13)" fill="#ffffff"/>
+			<circle id="ellipse" cx="12" cy="12" r="11" stroke="#404040" stroke-width="2"/>
+			<rect id="seconds-hand" x="11" y="13" width="2" height="9" rx="1" transform="rotate(-90 11 13)" fill="#404040"/>
 		</g>
 	</g>
 </svg>
