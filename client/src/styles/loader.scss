@@ -1,0 +1,20 @@
+.loader {
+  width: 60px;
+  height: 60px;
+
+  background-color: #ffffff;
+
+  animation: box 0.9s cubic-bezier(0.76, 0, 0.24, 1) infinite;
+}
+
+@keyframes box {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(0.7);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}

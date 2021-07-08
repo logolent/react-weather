@@ -1,0 +1,64 @@
+@import "./constants.scss";
+
+.weather-widget {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  padding-top: 40px;
+}
+
+.weather-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+  margin-bottom: 40px;
+
+  font-size: 20px;
+
+  &__input {
+    min-width: 280px;
+    height: 40px;
+    padding: 4px 6px;
+
+    font-size: inherit;
+    color: $text-color-dark;
+
+    border: none;
+    outline: 0;
+
+    &:focus {
+      box-shadow: 0 0 0 3px $secondary-color;
+    }
+  }
+
+  &__button {
+    min-width: 50px;
+    height: 40px;
+    padding: 4px 6px;
+
+    font-size: inherit;
+    color: $text-color-dark;
+
+    background: #ffffff;
+    border: none;
+    outline: 0;
+
+    &:focus {
+      box-shadow: 0 0 0 3px $secondary-color;
+    }
+  }
+
+  &__error {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 500px) {
+  .weather-form {
+    flex-direction: row;
+  }
+}
